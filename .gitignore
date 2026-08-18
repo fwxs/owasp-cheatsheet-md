@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build/release artifacts
+*.zip
+dist/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
