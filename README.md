@@ -23,7 +23,25 @@ SKILL.md                       ← root router: picks the right category
     *.md                       ← individual OWASP cheat sheets
 ```
 
-## License
+## Development
 
-Content is a mirror of the OWASP Cheat Sheet Series, © OWASP Cheat Sheets Series Team, licensed under
-[CC BY-SA 4.0](LICENSE). Not affiliated with or endorsed by OWASP.
+```bash
+python3 scripts/validate_skill.py
+```
+
+Checks structural integrity: every `SKILL.md`'s frontmatter, that each category's Resources list
+matches its `resources/` directory exactly, and that scripts compile. CI runs the same check on
+every push and pull request — run it locally before opening a PR. See `CONTRIBUTING.md` for the
+full contribution workflow.
+
+## License and attribution
+
+This repository is dual-licensed:
+
+- **Mirrored OWASP content** — every file under `*/resources/**` — is licensed under
+  [CC BY-SA 4.0](LICENSE).
+- **Original code and methodology** — `SKILL.md` (root and per-category) and `scripts/**` — is
+  licensed under [MIT](LICENSE-CODE).
+
+Content is a mirror of the OWASP Cheat Sheet Series, © OWASP Cheat Sheets Series Team. See `NOTICE`
+for what was changed from the original. Not affiliated with or endorsed by OWASP.

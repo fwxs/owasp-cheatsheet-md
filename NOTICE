@@ -1,0 +1,30 @@
+This repository redistributes and adapts content from the OWASP Cheat Sheet
+Series.
+
+Original work:
+  Title:   OWASP Cheat Sheet Series
+  Author:  The OWASP Cheat Sheets Series Team
+  Source:  https://cheatsheetseries.owasp.org/
+  Repo:    https://github.com/OWASP/CheatSheetSeries
+  License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+           https://creativecommons.org/licenses/by-sa/4.0/
+
+Changes made to the original in this repository:
+  - Mirrored the published cheat sheets as plain Markdown files, one file per
+    cheat sheet.
+  - Reorganized the cheat sheets into 21 domain-specific category folders
+    (e.g. Authentication, Injection, Cryptography_and_Keys), each with its
+    own `resources/` directory.
+  - Added a root `SKILL.md` that routes a security review or hardening
+    request to the matching category, and a `SKILL.md` per category that
+    lists its cheat sheets and a review workflow. These routing/workflow
+    files are original content, not mirrored OWASP text (see `LICENSE-CODE`).
+
+Because the OWASP Cheat Sheet Series is licensed under CC BY-SA 4.0, the
+mirrored materials under `*/resources/**` remain under CC BY-SA 4.0.
+Attribution to the OWASP Cheat Sheets Series Team is required and is
+provided here and in the README.
+
+"OWASP" is a registered trademark of the OWASP Foundation. This project is
+not affiliated with or endorsed by the OWASP Foundation or the OWASP Cheat
+Sheets Series Team.
